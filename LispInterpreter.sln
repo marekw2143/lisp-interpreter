@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Program", "LispInterpreter.Program\LispInterpreter.Program.csproj", "{9C2CDA1E-67E3-469C-92D1-1A71BB1EB598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.AST", "LispInterpreter.AST\LispInterpreter.AST.csproj", "{4F8E0D78-B0E5-4C5E-8E5B-B53B5D372E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Lexem", "LispInterpreter.Lexem\LispInterpreter.Lexem.csproj", "{0A512005-7282-4CCF-A9D8-63AC89CAD528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Interpreter", "LispInterpreter.Interpreter\LispInterpreter.Interpreter.csproj", "{4AF6494E-BD72-4C18-A337-EABD4F26D74E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Lexem.Tests", "LispInterpreter.Lexem.Tests\LispInterpreter.Lexem.Tests.csproj", "{C5699A9B-E0D9-4186-A149-5987F68A18AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.Interpreter.Tests.HighLevel", "LispInterpreter.Interpreter.Tests.HighLevel\LispInterpreter.Interpreter.Tests.HighLevel.csproj", "{56C5E7AE-4ED8-46B9-8F78-0CEA2B59832A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter.AST.Tests", "LispInterpreter.AST.Tests\LispInterpreter.AST.Tests.csproj", "{7ABDAE57-4D57-47A2-85D3-73770A65FEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C2CDA1E-67E3-469C-92D1-1A71BB1EB598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2CDA1E-67E3-469C-92D1-1A71BB1EB598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2CDA1E-67E3-469C-92D1-1A71BB1EB598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2CDA1E-67E3-469C-92D1-1A71BB1EB598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8E0D78-B0E5-4C5E-8E5B-B53B5D372E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8E0D78-B0E5-4C5E-8E5B-B53B5D372E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8E0D78-B0E5-4C5E-8E5B-B53B5D372E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8E0D78-B0E5-4C5E-8E5B-B53B5D372E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A512005-7282-4CCF-A9D8-63AC89CAD528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A512005-7282-4CCF-A9D8-63AC89CAD528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A512005-7282-4CCF-A9D8-63AC89CAD528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A512005-7282-4CCF-A9D8-63AC89CAD528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF6494E-BD72-4C18-A337-EABD4F26D74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF6494E-BD72-4C18-A337-EABD4F26D74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF6494E-BD72-4C18-A337-EABD4F26D74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF6494E-BD72-4C18-A337-EABD4F26D74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5699A9B-E0D9-4186-A149-5987F68A18AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5699A9B-E0D9-4186-A149-5987F68A18AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5699A9B-E0D9-4186-A149-5987F68A18AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5699A9B-E0D9-4186-A149-5987F68A18AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C5E7AE-4ED8-46B9-8F78-0CEA2B59832A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C5E7AE-4ED8-46B9-8F78-0CEA2B59832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C5E7AE-4ED8-46B9-8F78-0CEA2B59832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C5E7AE-4ED8-46B9-8F78-0CEA2B59832A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABDAE57-4D57-47A2-85D3-73770A65FEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABDAE57-4D57-47A2-85D3-73770A65FEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABDAE57-4D57-47A2-85D3-73770A65FEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABDAE57-4D57-47A2-85D3-73770A65FEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
